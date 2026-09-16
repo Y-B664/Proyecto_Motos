@@ -6,6 +6,7 @@ public class VentanaPrincipal extends JFrame{
     private JPasswordField passwordField1;
     private JTree tree1;
     private JPanel panelPrincipal;
+    private JTabbedPane tabbedPane1;
 
 
     public VentanaPrincipal(){
@@ -21,5 +22,9 @@ public class VentanaPrincipal extends JFrame{
         SwingUtilities.invokeLater(() -> {
             new VentanaPrincipal().setVisible(true);
         });
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }
