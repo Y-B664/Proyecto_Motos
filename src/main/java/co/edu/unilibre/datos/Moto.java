@@ -4,6 +4,7 @@ public class Moto {
     private int cedulaPropietario;
     private String placa;
     private String marca;
+    private byte[]  fotoPlaca;
 
     public void modificarCedulaPropietario(int cedulaPropietario){
         this.cedulaPropietario = cedulaPropietario;
@@ -22,5 +23,11 @@ public class Moto {
     }
     public String obtenerMarca(){
         return this.marca;
+    }
+    public void modificarFotoPlaca(byte[] fotoPlaca){
+        this.fotoPlaca = fotoPlaca;
+    }
+    public byte[] obtenerFotoPlaca(){
+        return this.fotoPlaca;
     }
 }
