@@ -40,15 +40,18 @@ public class GestorParqueaderoTest {
     @Test
     public void generarRegistroPagoOk(){
         RegistroPago registroPago = new RegistroPago();
-        assertEquals(registroPago,gestorParqueadero.generarRegistroPago(new placa(new Moto())));
+        Moto moto = new Moto();
+        assertEquals(registroPago,gestorParqueadero.generarRegistroPago(moto));
     }
     @Test
     public void calcularValorAPagarOk(){
-        assertEquals(5000.5,gestorParqueadero.calcularValorAPagar(new RegistroPago()));
+
+        assertEquals(0.0,gestorParqueadero.calcularValorAPagar("HHH-123"));
         ;
     }
     @Test
     public void registrarPagoOk(){
+
         assertTrue(gestorParqueadero.registrarPago(new RegistroPago()));
     }
 

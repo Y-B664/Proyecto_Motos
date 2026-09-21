@@ -74,7 +74,7 @@ public class GestorParqueadero {
     public boolean registrarPago(RegistroPago registroPago) {
         List<RegistroPago> registros = parqueadero.obtenerRegistroPagos();
         registros.add(registroPago);
-        return false;
+        return true;
     }
     private Moto encontrarMoto(String placa){
         Map<String,Moto> motos =parqueadero.obtenerMotos();
