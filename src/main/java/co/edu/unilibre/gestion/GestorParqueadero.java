@@ -80,7 +80,7 @@ public class GestorParqueadero {
         Map<String,Moto> motos =parqueadero.obtenerMotos();
         return motos.get(placa);
     }
-    private RegistroPago encontraRegistroMoto(String placa){
+    private RegistroPago encontrarRegistroMoto(String placa){
         for (RegistroPago registroPago : parqueadero.obtenerRegistroPagos()){
             if (registroPago.obtenerMoto().obtenerPlaca()==placa){
                 return registroPago;
