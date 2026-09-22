@@ -1,26 +1,25 @@
 package co.edu.unilibre.datos;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Parqueadero {
 
-    private ArrayList<Moto> motos = new ArrayList<Moto>();
+    private Map<String,Moto> motos = new HashMap<String,Moto>();
     private ArrayList<RegistroPago> registroPagos= new ArrayList<RegistroPago>();
     private double valorMinuto = 40;
 
-    public void modificarMotos(ArrayList<Moto> motos){
-
+    public void modificarMotos(Map<String,Moto> motos){
         this.motos = motos;
     }
-    public ArrayList<Moto> obtenerPlaca(){
-
+    public Map<String,Moto> obtenerPlaca(){
         return this.motos;
     }
     public void modificarRegistroPagos(ArrayList<RegistroPago> motos){
         this.registroPagos = registroPagos;
     }
     public ArrayList<RegistroPago> obtenerRegistroPagos(){
-
         return this.registroPagos;
     }
     public void modificarValorMinuto(double valorMinuto){
@@ -32,4 +31,7 @@ public class Parqueadero {
         return this.valorMinuto;
     }
 
+    public Map<String, Moto> obtenerMotos() {
+        return this.motos;
+    }
 }

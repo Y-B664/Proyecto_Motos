@@ -2,8 +2,8 @@ import co.edu.unilibre.datos.Moto;
 import co.edu.unilibre.datos.Parqueadero;
 
 import co.edu.unilibre.datos.RegistroPago;
-import co.edu.unilibre.datos.TipoPago;
 import co.edu.unilibre.gestion.GestorParqueadero;
+import co.edu.unilibre.gestion.placa;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -35,20 +35,23 @@ public class GestorParqueaderoTest {
     }
     @Test
     public void darSalidaMotoOk(){
-        assertTrue(gestorParqueadero.darSalidaMoto("HHH-980", TipoPago.DAVIPLATA));
+        assertTrue(gestorParqueadero.darSalidaMoto("HHH-980"));
     }
     @Test
     public void generarRegistroPagoOk(){
         RegistroPago registroPago = new RegistroPago();
-        assertEquals(registroPago,gestorParqueadero.generarRegistroPago(new Moto()));
+        Moto moto = new Moto();
+        assertEquals(registroPago,gestorParqueadero.generarRegistroPago(moto));
     }
     @Test
     public void calcularValorAPagarOk(){
-        assertEquals(5000.5,gestorParqueadero.calcularValorAPagar(new RegistroPago()));
+
+        assertEquals(0.0,gestorParqueadero.calcularValorAPagar("HHH-123"));
         ;
     }
     @Test
     public void registrarPagoOk(){
+
         assertTrue(gestorParqueadero.registrarPago(new RegistroPago()));
     }
 
