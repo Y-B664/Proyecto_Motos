@@ -1,24 +1,23 @@
 package co.edu.unilibre.datos;
 
 public class Moto {
-    private int cedulaPropietario;
+    private String cedulaPropietario;
     private String placa;
     private String marca;
-    private byte[]  fotoPlaca;
 
     public Moto() {
 
     }
-    public Moto(int cedulaPropietario, String placa, String marca) {
+    public Moto(String cedulaPropietario, String placa, String marca) {
         this.cedulaPropietario = cedulaPropietario;
         this.placa = placa;
         this.marca = marca;
     }
 
-    public void modificarCedulaPropietario(int cedulaPropietario){
+    public void modificarCedulaPropietario(String cedulaPropietario){
         this.cedulaPropietario = cedulaPropietario;
     }
-    public int obtenerCedulaPropietario(){
+    public String obtenerCedulaPropietario(){
         return this.cedulaPropietario;
     }
     public void modificarPlaca(String placa){
@@ -32,11 +31,5 @@ public class Moto {
     }
     public String obtenerMarca(){
         return this.marca;
-    }
-    public void modificarFotoPlaca(byte[] fotoPlaca){
-        this.fotoPlaca = fotoPlaca;
-    }
-    public byte[] obtenerFotoPlaca(){
-        return this.fotoPlaca;
     }
 }
