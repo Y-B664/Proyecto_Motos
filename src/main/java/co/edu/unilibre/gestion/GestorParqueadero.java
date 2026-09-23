@@ -105,6 +105,7 @@ public class GestorParqueadero {
         }
         registroPago.modificarTipoPago(tipoPago);
         registroPago.modificarValorPagado(valor);
+        registroPago.modificarFechaHoraPago(LocalDateTime.now());
         Map<String,Moto> motos = parqueadero.obtenerMotos();
         motos.remove(placa);
         return registroPago;
