@@ -6,7 +6,6 @@ import co.edu.unilibre.datos.TipoPago;
 import co.edu.unilibre.gestion.GestorParqueadero;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.*;

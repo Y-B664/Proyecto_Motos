@@ -4,6 +4,7 @@ import co.edu.unilibre.datos.Moto;
 import co.edu.unilibre.datos.Parqueadero;
 import co.edu.unilibre.datos.RegistroPago;
 import co.edu.unilibre.datos.TipoPago;
+import co.edu.unilibre.implDAO.ImplDAO;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -12,6 +13,11 @@ import java.util.Map;
 
 public class GestorParqueadero {
     private Parqueadero parqueadero;
+    private ImplDAO implDAO;
+
+    public GestorParqueadero() {
+        this.implDAO = new ImplDAO();
+    }
 
     public Parqueadero obtenerParqueadero(){
         return this.parqueadero;
@@ -28,6 +34,7 @@ public class GestorParqueadero {
             return null;
         }
         Moto moto = new Moto(cedulaPropietario.trim(),placa.trim(),marca.trim());
+        implDAO.crear(moto);
         return moto ;
     }
     public Parqueadero crearParqueadero() {
@@ -85,6 +92,7 @@ public class GestorParqueadero {
         RegistroPago registroPago = new RegistroPago();
         registroPago.modificarMoto(moto);
         registroPago.modificarFechaHoraIngreso(LocalDateTime.now());
+        implDAO.crear(registroPago);
         return registroPago;
     }
     public boolean registrarPago(RegistroPago registroPago) {

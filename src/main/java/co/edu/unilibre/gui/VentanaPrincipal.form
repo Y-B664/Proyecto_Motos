@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="co.edu.unilibre.gui.VentanaPrincipal">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1366" height="768"/>
+    </constraints>
+    <properties>
+      <background color="-8032339"/>
+      <minimumSize width="1100" height="700"/>
+      <opaque value="true"/>
+      <preferredSize width="1100" height="700"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="b7d3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-8032339"/>
+          <minimumSize width="0" height="80"/>
+          <opaque value="false"/>
+          <preferredSize width="0" height="80"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="40e19" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="0" height="80"/>
+                <preferred-size width="0" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="empty">
+              <size top="20" left="20" bottom="20" right="20"/>
+            </border>
+            <children>
+              <component id="1d65e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.97" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono ExtraBold" size="40" style="1"/>
+                  <foreground color="-657670"/>
+                  <text value="GesPark"/>
+                </properties>
+              </component>
+              <component id="516fc" class="javax.swing.JLabel" binding="fieldLogo">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.03" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <preferredSize width="0" height="80"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <tabbedpane id="af59c" binding="tabbedHome">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-8032339"/>
+          <doubleBuffered value="true"/>
+          <font name="JetBrains Mono ExtraBold" size="16" style="3"/>
+          <foreground color="-657670"/>
+          <name value="Registro motos"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="b1dc8" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="20">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Registro motos"/>
+            </constraints>
+            <properties>
+              <background color="-8032339"/>
+              <opaque value="true"/>
+              <toolTipText value=""/>
+            </properties>
+            <border type="none">
+              <font/>
+              <title-color color="-657670"/>
+            </border>
+            <children>
+              <hspacer id="3e858">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="252ca">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <grid id="bab8c" binding="panelHome" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-8032339"/>
+                  <opaque value="true"/>
+                </properties>
+                <border type="empty">
+                  <size top="10" left="10" bottom="10" right="10"/>
+                </border>
+                <children>
+                  <grid id="27772" binding="panelForms" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag top="10" left="10" bottom="10" right="10" weightx="0.25" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-657670"/>
+                      <focusCycleRoot value="true"/>
+                      <opaque value="false"/>
+                    </properties>
+                    <border type="empty">
+                      <size top="10" left="10" bottom="10" right="10"/>
+                    </border>
+                    <children>
+                      <grid id="ab076" binding="panelIngreso" layout-manager="GridBagLayout">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-14405282"/>
+                          <foreground color="-657670"/>
+                        </properties>
+                        <border type="none">
+                          <size top="10" left="10" bottom="10" right="10"/>
+                        </border>
+                        <children>
+                          <grid id="7939c" binding="panelTituloIngreso" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <gridbag weightx="1.0" weighty="0.1"/>
+                            </constraints>
+                            <properties>
+                              <background color="-10659696"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="3419b" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-657670"/>
+                                  <text value="REGISTRAR INGRESO DE MOTO"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="95cde" binding="panelFormsIngreso" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <gridbag weightx="1.0" weighty="0.9"/>
+                            </constraints>
+                            <properties>
+                              <background color="-14277031"/>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="empty">
+                              <size top="20" left="20" bottom="20" right="20"/>
+                              <color color="-3025959"/>
+                            </border>
+                            <children>
+                              <grid id="b821c" layout-manager="GridBagLayout">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <opaque value="false"/>
+                                </properties>
+                                <border type="none"/>
+                                <children>
+                                  <grid id="5a38b" layout-manager="GridBagLayout">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                      <gridbag weightx="1.0" weighty="0.8"/>
+                                    </constraints>
+                                    <properties>
+                                      <opaque value="false"/>
+                                    </properties>
+                                    <border type="none"/>
+                                    <children>
+                                      <grid id="2f87d" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                        <margin top="0" left="0" bottom="0" right="0"/>
+                                        <constraints>
+                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                          <gridbag weightx="0.25" weighty="1.0"/>
+                                        </constraints>
+                                        <properties>
+                                          <background color="-14405282"/>
+                                          <opaque value="false"/>
+                                        </properties>
+                                        <border type="none"/>
+                                        <children>
+                                          <component id="7c284" class="javax.swing.JLabel" binding="etiquetaCedula">
+                                            <constraints>
+                                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="JetBrains Mono" size="14" style="1"/>
+                                              <foreground color="-657670"/>
+                                              <text value="Cedula"/>
+                                            </properties>
+                                          </component>
+                                          <component id="8868" class="javax.swing.JLabel" binding="etiquetaPlaca">
+                                            <constraints>
+                                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="JetBrains Mono" size="14" style="1"/>
+                                              <foreground color="-657670"/>
+                                              <text value="Placa"/>
+                                            </properties>
+                                          </component>
+                                          <component id="7a68" class="javax.swing.JLabel" binding="etiquetaMarca">
+                                            <constraints>
+                                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="JetBrains Mono" size="14" style="1"/>
+                                              <foreground color="-657670"/>
+                                              <text value="Marca"/>
+                                            </properties>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                      <grid id="7ed83" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                        <margin top="0" left="0" bottom="0" right="0"/>
+                                        <constraints>
+                                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                          <gridbag weightx="0.75" weighty="1.0"/>
+                                        </constraints>
+                                        <properties>
+                                          <opaque value="false"/>
+                                        </properties>
+                                        <border type="none"/>
+                                        <children>
+                                          <component id="65933" class="javax.swing.JTextField" binding="fieldCedula">
+                                            <constraints>
+                                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                                <preferred-size width="150" height="-1"/>
+                                              </grid>
+                                            </constraints>
+                                            <properties>
+                                              <background color="-657670"/>
+                                              <font name="JetBrains Mono"/>
+                                              <foreground color="-15722457"/>
+                                            </properties>
+                                          </component>
+                                          <component id="ca813" class="javax.swing.JTextField" binding="fieldPlaca">
+                                            <constraints>
+                                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                                <preferred-size width="150" height="-1"/>
+                                              </grid>
+                                            </constraints>
+                                            <properties>
+                                              <autoscrolls value="true"/>
+                                              <background color="-657670"/>
+                                              <font name="JetBrains Mono"/>
+                                              <foreground color="-15722457"/>
+                                            </properties>
+                                          </component>
+                                          <component id="f8e84" class="javax.swing.JTextField" binding="fieldMarca">
+                                            <constraints>
+                                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                                <preferred-size width="150" height="-1"/>
+                                              </grid>
+                                            </constraints>
+                                            <properties>
+                                              <background color="-1"/>
+                                              <font name="JetBrains Mono"/>
+                                              <foreground color="-15722457"/>
+                                            </properties>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                    </children>
+                                  </grid>
+                                  <grid id="f4a1c" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                    <margin top="0" left="0" bottom="0" right="0"/>
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                      <gridbag weightx="1.0" weighty="0.2"/>
+                                    </constraints>
+                                    <properties/>
+                                    <border type="none"/>
+                                    <children>
+                                      <component id="add5" class="javax.swing.JButton" binding="registrarIngresoButton" default-binding="true">
+                                        <constraints>
+                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                        </constraints>
+                                        <properties>
+                                          <actionCommand value="Registrar Ingreso"/>
+                                          <background color="-65794"/>
+                                          <font name="JetBrains Mono ExtraBold" size="14" style="3"/>
+                                          <foreground color="-15722457"/>
+                                          <label value="Registrar Ingreso"/>
+                                          <text value="Registrar Ingreso"/>
+                                        </properties>
+                                      </component>
+                                    </children>
+                                  </grid>
+                                </children>
+                              </grid>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="8adcd" binding="panelSalida" layout-manager="GridBagLayout">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-14735049"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="38b4" binding="panelTituloSalida" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <gridbag weightx="1.0" weighty="0.1"/>
+                            </constraints>
+                            <properties>
+                              <background color="-10659696"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="30da3" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-657670"/>
+                                  <text value="DAR SALIDA MOTO"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="611ad" binding="panelFormsSalida" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                              <gridbag weightx="1.0" weighty="0.9"/>
+                            </constraints>
+                            <properties>
+                              <background color="-14471075"/>
+                            </properties>
+                            <border type="empty">
+                              <size top="20" left="20" bottom="20" right="20"/>
+                            </border>
+                            <children>
+                              <grid id="c3464" layout-manager="GridBagLayout">
+                                <constraints>
+                                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <opaque value="false"/>
+                                </properties>
+                                <border type="none"/>
+                                <children>
+                                  <grid id="4662f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                    <margin top="0" left="0" bottom="0" right="0"/>
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                      <gridbag weightx="1.0" weighty="0.2"/>
+                                    </constraints>
+                                    <properties/>
+                                    <border type="none"/>
+                                    <children>
+                                      <component id="aaa0" class="javax.swing.JButton" binding="buttonConfirmarSalida">
+                                        <constraints>
+                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                        </constraints>
+                                        <properties>
+                                          <actionCommand value="Registrar Ingreso"/>
+                                          <background color="-657670"/>
+                                          <font name="JetBrains Mono ExtraBold" size="14" style="3"/>
+                                          <foreground color="-15722457"/>
+                                          <label value="Confirmar Salida"/>
+                                          <text value="Confirmar Salida"/>
+                                        </properties>
+                                      </component>
+                                    </children>
+                                  </grid>
+                                  <grid id="15241" layout-manager="GridBagLayout">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                      <gridbag weightx="1.0" weighty="0.8"/>
+                                    </constraints>
+                                    <properties>
+                                      <opaque value="false"/>
+                                    </properties>
+                                    <border type="none"/>
+                                    <children>
+                                      <grid id="6f090" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                        <margin top="0" left="0" bottom="0" right="0"/>
+                                        <constraints>
+                                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                          <gridbag weightx="0.75" weighty="1.0"/>
+                                        </constraints>
+                                        <properties>
+                                          <opaque value="false"/>
+                                        </properties>
+                                        <border type="none"/>
+                                        <children>
+                                          <component id="a4156" class="javax.swing.JTextField" binding="fieldTiempoTranscurrido">
+                                            <constraints>
+                                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                                <preferred-size width="150" height="-1"/>
+                                              </grid>
+                                            </constraints>
+                                            <properties>
+                                              <background color="-657670"/>
+                                              <caretColor color="-657670"/>
+                                              <disabledTextColor color="-7960176"/>
+                                              <font name="JetBrains Mono"/>
+                                              <foreground color="-15722457"/>
+                                            </properties>
+                                          </component>
+                                          <component id="53495" class="javax.swing.JTextField" binding="fieldTotalAPagar">
+                                            <constraints>
+                                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                                <preferred-size width="150" height="-1"/>
+                                              </grid>
+                                            </constraints>
+                                            <properties>
+                                              <background color="-657670"/>
+                                              <disabledTextColor color="-7960176"/>
+                                              <font name="JetBrains Mono"/>
+                                              <foreground color="-15722457"/>
+                                            </properties>
+                                          </component>
+                                          <component id="17933" class="javax.swing.JComboBox" binding="boxTipoPago">
+                                            <constraints>
+                                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                            </constraints>
+                                            <properties>
+                                              <background color="-657670"/>
+                                              <font name="JetBrains Mono"/>
+                                              <foreground color="-15722457"/>
+                                            </properties>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                      <grid id="34bb6" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                        <margin top="0" left="0" bottom="0" right="0"/>
+                                        <constraints>
+                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                          <gridbag weightx="0.25" weighty="1.0"/>
+                                        </constraints>
+                                        <properties>
+                                          <opaque value="false"/>
+                                        </properties>
+                                        <border type="none"/>
+                                        <children>
+                                          <component id="6269c" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="JetBrains Mono" size="14" style="1"/>
+                                              <foreground color="-657670"/>
+                                              <text value="Tiempo"/>
+                                            </properties>
+                                          </component>
+                                          <component id="4b5ff" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="JetBrains Mono" size="14" style="1"/>
+                                              <foreground color="-657670"/>
+                                              <text value="Total"/>
+                                            </properties>
+                                          </component>
+                                          <component id="e0a53" class="javax.swing.JLabel">
+                                            <constraints>
+                                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                            </constraints>
+                                            <properties>
+                                              <font name="JetBrains Mono" size="14" style="1"/>
+                                              <foreground color="-657670"/>
+                                              <text value="Tipo Pago"/>
+                                            </properties>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                    </children>
+                                  </grid>
+                                </children>
+                              </grid>
+                              <grid id="fbee8" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <opaque value="false"/>
+                                </properties>
+                                <border type="none"/>
+                                <children>
+                                  <component id="cffb7" class="javax.swing.JTextField" binding="fieldBuscarPlaca">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <background color="-1"/>
+                                      <font name="JetBrains Mono"/>
+                                      <foreground color="-15722457"/>
+                                      <inheritsPopupMenu value="true"/>
+                                      <text value=""/>
+                                    </properties>
+                                  </component>
+                                  <component id="a7603" class="javax.swing.JButton" binding="buscarPlacaButton" default-binding="true">
+                                    <constraints>
+                                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <actionCommand value="Buscar Moto"/>
+                                      <background color="-657670"/>
+                                      <font name="JetBrains Mono ExtraBold" size="14" style="3"/>
+                                      <foreground color="-15722457"/>
+                                      <label value="Buscar moto"/>
+                                      <text value="Buscar moto"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="8e101" layout-manager="GridBagLayout">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag top="10" left="10" bottom="10" right="10" weightx="0.75" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="empty">
+                      <size top="20" left="20" bottom="20" right="20"/>
+                    </border>
+                    <children>
+                      <grid id="3a0ff" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="0.05"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="fbaa1" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono Medium" size="14" style="1"/>
+                              <foreground color="-15722457"/>
+                              <text value="Parqueadero"/>
+                            </properties>
+                          </component>
+                          <component id="5f784" class="javax.swing.JTextField" binding="fieldBuscarMoto">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties/>
+                          </component>
+                          <component id="7a6de" class="javax.swing.JLabel" binding="labelCupos">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono Medium" size="14" style="1"/>
+                              <foreground color="-15722457"/>
+                              <text value="..."/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="25b95" binding="panelParqMotos" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <gridbag weightx="1.0" weighty="0.95"/>
+                        </constraints>
+                        <properties>
+                          <name value=""/>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="empty">
+                          <size top="20" left="20" bottom="20" right="20"/>
+                        </border>
+                        <children/>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="12fee" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Historial"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="6b793" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.1"/>
+                </constraints>
+                <properties>
+                  <background color="-8032339"/>
+                  <foreground color="-657670"/>
+                  <opaque value="true"/>
+                </properties>
+                <border type="empty">
+                  <size top="20" left="20" bottom="20" right="20"/>
+                </border>
+                <children>
+                  <grid id="d515e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10659696"/>
+                      <opaque value="true"/>
+                    </properties>
+                    <border type="etched">
+                      <title-color color="-14277031"/>
+                    </border>
+                    <children>
+                      <grid id="3067b" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-657670"/>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none">
+                          <title-color color="-15722457"/>
+                        </border>
+                        <children>
+                          <component id="f9a6f" class="javax.swing.JLabel" binding="labelTotalMotos">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono" size="16" style="3"/>
+                              <foreground color="-657670"/>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                          <component id="f0803" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="3"/>
+                              <foreground color="-657670"/>
+                              <text value="TOTAL MOTOS INGRESADAS"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="c0e91" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10659696"/>
+                      <opaque value="true"/>
+                    </properties>
+                    <border type="etched">
+                      <title-color color="-14277031"/>
+                    </border>
+                    <children>
+                      <grid id="42420" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-657670"/>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="fe119" class="javax.swing.JLabel" binding="labelIngresos">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono" size="16" style="3"/>
+                              <foreground color="-657670"/>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                          <component id="9fac1" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="3"/>
+                              <foreground color="-657670"/>
+                              <text value="INGRESOS DÍA"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="904d" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.9"/>
+                </constraints>
+                <properties>
+                  <background color="-14405282"/>
+                  <opaque value="true"/>
+                </properties>
+                <border type="empty" title="TABLA REGISTROS ///" title-justification="2" title-position="2">
+                  <font name="JetBrains Mono" size="16" style="3"/>
+                  <title-color color="-657670"/>
+                  <size top="30" left="30" bottom="30" right="30"/>
+                </border>
+                <children>
+                  <component id="1ff05" class="javax.swing.JButton" binding="actualizarRegistrosButton" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-657670"/>
+                      <font name="JetBrains Mono SemiBold" size="16" style="3"/>
+                      <foreground color="-15722457"/>
+                      <text value="Actualizar reporte"/>
+                    </properties>
+                  </component>
+                  <scrollpane id="46b10">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <background color="-14405282"/>
+                      <font name="JetBrains Mono" size="14"/>
+                    </properties>
+                    <border type="none">
+                      <title-color color="-3025959"/>
+                    </border>
+                    <children>
+                      <component id="f64ce" class="javax.swing.JTable" binding="tablaRegistros">
+                        <constraints/>
+                        <properties>
+                          <font name="JetBrains Mono" size="14" style="1"/>
+                          <toolTipText value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <grid id="4d5bc" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <opaque value="false"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="56c8c" class="javax.swing.JTextField" binding="buscarRegistro">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="7fedf" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="JetBrains Mono" size="16" style="3"/>
+                          <foreground color="-657670"/>
+                          <text value="Buscar registros Moto por placa-&gt;"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
